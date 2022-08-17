@@ -1,56 +1,47 @@
+:root {
+    /* Fonts */
+--main-font: Open Sans, sans-serif;
+--secondary-font: Raleway, sans-serif;
+  /* text colors */
+  --main-txt-cl: #303030;
+  --light-txt-cl: #fff;
+  --accent-txt-cl: #ff6c00;
+
+  /* bg color */
+   --accent-bg-cl: #ff6c00;
+}
+
 .page {
+  font-family: var(--main-font)
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+
+  color: var(--main-txt-cl);
 }
-.header {
-}
-.nav {
-}
-.logo {
-}
-.logo-img {
+
+/* reset */
+.link {
+  text-decoration: none;
+  color: currentColor;
+
 }
 .list {
+    list-style: none;
 }
-.list-item {
+
+.header .link:hover,
+.header .link:focus {
+    color: var(--accent-txt-cl);
+}
+
+.hero {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
 }
 .link {
-}
-.header-group {
-}
-.btn {
-}
-.section {
-}
-.group {
-}
-.uppertitle {
-}
-.main-title {
-}
-.subtitle {
-}
-.img {
-}
-.section-title {
-}
-.desc {
-}
-.list-group {
-}
-.quantity {
-}
-.team-name {
-}
-.team-position {
-}
-.socials {
-}
-.socials-item {
-}
-.socials-link {
-}
-.gallery {
-}
-.contacts-adress {
-}
-.contacts-schedule {
 }
